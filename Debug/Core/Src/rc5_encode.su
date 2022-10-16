@@ -1,0 +1,8 @@
+rc5_encode.c:57:6:Menu_RC5_Encode_Func	8	static
+rc5_encode.c:239:13:RC5_Encode_DeInit	8	static
+rc5_encode.c:251:6:RC5_Encode_Init	64	static
+rc5_encode.c:365:6:RC5_Encode_SendFrame	16	static
+rc5_encode.c:387:6:RC5_Encode_SignalGenerate	16	static
+rc5_encode.c:446:17:RC5_BinFrameGeneration	24	static
+rc5_encode.c:482:17:RC5_ManchesterConvert	32	static
+rc5_encode.c:512:6:TIM_ForcedOC1Config	24	static
