@@ -1,6 +1,7 @@
 # transmit_ir
 
 Repozytorium zawiera projekt stworzony w STM32CubeIDE*
+
 Program ma za zadanie wysyłać sygnał ir - kodowanie RC5
 
 *Poza plikami z projektu są tu inne pliki pomocnicze (IR trasnmit/recive):
