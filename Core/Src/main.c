@@ -138,7 +138,7 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
-  RC5_Encode_Init();
+
 
   /* USER CODE END Init */
 
@@ -152,11 +152,13 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_IRTIM_Init();
-  MX_TIM16_Init();
-  MX_TIM17_Init();
+  //MX_TIM16_Init();
+  //MX_TIM17_Init();
   MX_RTC_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+
+  RC5_Encode_Init();
 
   HAL_TIM_Base_Start_IT(&htim16);
   HAL_TIM_Base_Start(&htim17);

@@ -1,5 +1,5 @@
-tim.c:31:6:MX_TIM16_Init	80	static
-tim.c:88:6:MX_TIM17_Init	80	static
-tim.c:145:6:HAL_TIM_Base_MspInit	24	static
-tim.c:175:6:HAL_TIM_MspPostInit	48	static
-tim.c:223:6:HAL_TIM_Base_MspDeInit	16	static
+../Core/Src/tim.c:31:6:MX_TIM16_Init	80	static
+../Core/Src/tim.c:88:6:MX_TIM17_Init	80	static
+../Core/Src/tim.c:145:6:HAL_TIM_Base_MspInit	24	static
+../Core/Src/tim.c:175:6:HAL_TIM_MspPostInit	48	static
+../Core/Src/tim.c:223:6:HAL_TIM_Base_MspDeInit	16	static

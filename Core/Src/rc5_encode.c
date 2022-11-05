@@ -314,9 +314,9 @@ void RC5_Encode_Init(void)
 
   /* Time Base configuration for timer 16 */
   htim16.Instance = TIM16;
-  htim16.Init.Prescaler = 1;
+  htim16.Init.Prescaler = 63;
   htim16.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim16.Init.Period = 1777;
+  htim16.Init.Period = 1999;
   htim16.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim16.Init.RepetitionCounter = 0;
   htim16.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -331,7 +331,7 @@ void RC5_Encode_Init(void)
 
   /* Channel 1 Configuration in Timing mode */
   ch_config.OCMode = TIM_OCMODE_TIMING;
-  ch_config.Pulse = 888;
+  ch_config.Pulse = 0;
   ch_config.OCPolarity = TIM_OCPOLARITY_HIGH;
   ch_config.OCNPolarity = TIM_OCNPOLARITY_HIGH;
   ch_config.OCFastMode = TIM_OCFAST_DISABLE;
